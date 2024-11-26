@@ -12,3 +12,4 @@ class HabitAdmin(admin.ModelAdmin):
 class GroupAdmin(admin.ModelAdmin):
     list_display = ('name', 'created_at')  # Fields displayed in the admin panel
     search_fields = ('name',)  # Add a search bar for groups
+
